@@ -225,3 +225,18 @@ defineCurve('curve25519-weier', {
     '20ae19a1b8a086b4e01edd2c7748d14c923d4d7e6d7c61b229e9c5a27eced3d9',
   ],
 })
+
+defineCurve('alt_bn128', {
+  type: 'short',
+  prime: null,
+  p: '30644e72e131a029b85045b68181585d97816a916871ca8d3c208c16d87cfd47',
+  a: '0',
+  b: '3',
+  n: '30644e72e131a029b85045b68181585d2833e84879b9709143e1f593f0000001',
+  hash: hash.sha256,
+  gRed: false,
+  g: [
+    '1',
+    '2',
+  ],
+});
