@@ -1,0 +1,13 @@
+import BN = require('bn.js');
+import { CurvePoint, SystemParameters, SystemParametersSerialized } from './index';
+export declare const ECpow: (a: CurvePoint, b: BN) => CurvePoint;
+export declare const ECmul: (a: CurvePoint, b: CurvePoint) => CurvePoint;
+export declare const ECdiv: (a: CurvePoint, b: CurvePoint) => CurvePoint;
+export declare const curvePointToString: (point: CurvePoint) => string;
+export declare const curvePointsToString: (points: CurvePoint[]) => string;
+export declare const serializeBN: (bn: BN) => string;
+export declare const deserializeBN: (bn: string) => BN;
+export declare const serializeCurvePoint: (point: CurvePoint) => string;
+export declare const deserializeCurvePoint: (point: CurvePoint | string) => CurvePoint;
+export declare const serializeSystemParameters: (params: SystemParameters) => SystemParametersSerialized;
+export declare const deserializeParams: (params: SystemParameters | SystemParametersSerialized) => SystemParameters;

@@ -1,0 +1,13 @@
+/// <reference types="node" />
+import BN = require('bn.js');
+export declare const newBN: (n: number, base?: number) => BN;
+export declare const invmBN: (a: BN, modulus: BN) => BN;
+export declare const addBN: (a: BN, b: BN, modulus: BN) => BN;
+export declare const subBN: (a: BN, b: BN, modulus: BN) => BN;
+export declare const mulBN: (a: BN, b: BN, modulus: BN) => BN;
+export declare const divBN: (a: BN, b: BN, modulus: BN) => BN;
+export declare const powBN: (a: BN, b: BN, modulus: BN) => BN;
+export declare const getByteSizeForDecimalNumber: (n: BN) => BN;
+export declare const getSecureRandomValue: (n: BN) => BN;
+export declare const timingSafeEqual: (a: Buffer, b: Buffer) => boolean;
+export declare const timingSafeEqualBN: (a: BN, b: BN) => boolean;
