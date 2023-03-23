@@ -1,10 +1,10 @@
 {
-  "name": "@meck93/evote-crypto",
-  "version": "0.1.10",
+  "name": "@8gen/evote-crypto",
+  "version": "0.2.0",
   "description": "",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:meck93/evote-crypto.git"
+    "url": "ssh://git@github.com:8gen/evote-crypto.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
